@@ -1,7 +1,7 @@
 # Balmukhambet Darkhan
 [Это ссылка на Github](https://github.com/KazakhBas1k)
->No one will believe it until you believe it yourself
-```javascript
+>No one will believe it until you believe it yourself.
+```javascript 
 function solution(str, ending){
   if(ending == ''){
     return true
