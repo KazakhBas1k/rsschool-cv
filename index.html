@@ -1,11 +1,244 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>CV</title>
-        <link rel="stylesheet" href="/style.css">
-    </head>
-    <body>
-        <h1>Balmukhambet Darkhan</h1>
-    </body>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="icon" href="./assets/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <img src="./assets/svg/Logo.svg" alt="Logo" />
+          <a href="#about-me">Darkhan</a>
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="#about-me" class="nav-link"><span class="primary">#</span>about-me</a>
+            </li>
+            <li>
+              <a href="#skills" class="nav-link"><span class="primary">#</span>skills</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link"><span class="primary">#</span>projects</a>
+            </li>
+            <li>
+              <a href="#contacts" class="nav-link"><span class="primary">#</span>contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-button">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="preview container">
+    <div class="preview-content">
+      <h1 class="preview-heading">
+        My name is <span class="primary">Darkhan</span> and I'm
+        <span class="primary">front-end developer</span>
+      </h1>
+      <p class="text preview-text">
+        I create websites and use various technologies.
+      </p>
+      <form action="#contacts">
+        <button class="buttons">Contact me !!</button>
+      </form>
+    </div>
+    <div class="preview-image">
+      <div class="avatar">
+        <img src="./assets/img/Avatar.png" alt="Avatar" />
+        <img class="preview-square" src="./assets/svg/Square.svg" alt="Square" />
+        <img class="preview-dots" src="./assets/svg/Dots.svg" alt="Dots" />
+      </div>
+      <div class="preview-image-description">
+        <div></div>
+        <p>Currently working on <span>Portfolio</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="cite container">
+    <div class="cite-container">
+      <div class="cite-content">
+        Do it before you regret
+        <img src="./assets/svg/Commas.svg" alt="Commas" />
+        <img src="./assets/svg/Commas.svg" alt="Commas" />
+      </div>
+      <div class="cite-author">- Life</div>
+    </div>
+  </div>
+  <main class="main">
+    <div class="about-me container" id="about-me">
+      <div class="heading">
+        <h2><span class="primary">#</span>about-me</h2>
+        <div class="line"></div>
+      </div>
+      <div class="about-me-container">
+        <div class="about-me-content">
+          <p class="text">Hello, I'm Darkhan!</p>
+          <p class="text">
+            I'm a self-taught front-end developer based in Almaty, Kazakhstan.
+            I have just started my activity as a developer and this is my
+            first full-fledged (mini) project as a junior front-end developer.
+          </p>
+          <p class="text">
+            I strive to create various websites and applications that will
+            surprise everyone with their functionality and the technologies
+            used.
+          </p>
+          <button class="buttons">Read more -></button>
+        </div>
+        <div class="about-me-image">
+          <img src="./assets/img/about-me.png" alt="about-me-image" />
+          <img class="about-me-dots" src="./assets/svg/Dots.svg" alt="Dots" />
+          <div class="under-line"></div>
+        </div>
+      </div>
+    </div>
+    <div class="skills container" id="skills">
+      <div class="heading">
+        <h2><span class="primary">#</span>skills</h2>
+        <div class="line"></div>
+      </div>
+      <div class="skills-container">
+        <div class="skills-image">
+          <img src="./assets/svg/Dots.svg" alt="Dots" />
+          <div></div>
+          <img src="./assets/svg/Square.svg" alt="Square" />
+          <img src="./assets/svg/Dots.svg" alt="Dots" />
+          <div></div>
+        </div>
+        <div class="skills-content">
+          <div class="skills-card">
+            <div class="skills-name">Languages</div>
+            <div class="skills-description">JavaScript C++</div>
+          </div>
+          <div class="skills-card">
+            <div class="skills-name">Databases</div>
+            <div class="skills-description">PostgreSQL mockapi</div>
+          </div>
+          <div class="skills-card">
+            <div class="skills-name">Tools</div>
+            <div class="skills-description">Git VSCode Figma Fonts</div>
+          </div>
+          <div class="skills-card">
+            <div class="skills-name">Frameworks</div>
+            <div class="skills-description">React</div>
+          </div>
+          <div class="skills-card">
+            <div class="skills-name">Others</div>
+            <div class="skills-description">HTML CSS</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects container" id="projects">
+      <div class="heading">
+        <h2><span class="primary">#</span>projects</h2>
+        <div class="line"></div>
+      </div>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="./assets/img/react-sneakers.jpg" alt="react-sneakers" />
+          <div class="project-tech">React Router Axios SCSS</div>
+          <div class="project-card-bottom">
+            <div class="project-name">React Sneakers</div>
+            <div class="project-description">Online store of Sneakers</div>
+            <form action="https://github.com/KazakhBas1k/react-sneakers">
+              <button class="buttons">Live <~></button>
+            </form>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./assets/img/soon.jpg" alt="soon" />
+          <div class="project-tech">Soon</div>
+          <div class="project-card-bottom">
+            <div class="project-name">Soon</div>
+            <div class="project-description">Soon</div>
+            <button class="buttons">Live <~></button>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./assets/img/soon.jpg" alt="soon" />
+          <div class="project-tech">Soon</div>
+          <div class="project-card-bottom">
+            <div class="project-name">Soon</div>
+            <div class="project-description">Soon</div>
+            <button class="buttons">Live <~></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contacts container" id="contacts">
+      <div class="heading">
+        <h2><span class="primary">#</span>contacts</h2>
+        <div class="line"></div>
+      </div>
+      <div class="contacts-container">
+        <div class="contacts-content">
+          <p class="text">
+            I’m interested in freelance opportunities. However, if you have
+            other request or question, don’t hesitate to contact me
+          </p>
+        </div>
+        <div class="contacts-card">
+          <p>Message me here</p>
+          <div class="contacts-links">
+            <a href="https://discordapp.com/users/454232680926674945/">
+              <img src="./assets/svg/Discord.svg" alt="Discord" /></a>
+            <p class="text">KazakhBas1k\#1308</p>
+          </div>
+          <div class="contacts-links">
+            <a href="mailto:darhan.balmukhambet@gmail.com"><img src="./assets/svg/Email.svg" alt="Email" /></a>
+            <p class="text">darhan.balmukhambet@gmail.com</p>
+          </div>
+          <div class="contacts-links">
+            <a href="https://t.me/Kazakhbas1k"><img src="./assets/svg/Telegram.svg" alt="Telegram" /></a>
+            <p class="text">@KazakhBas1k</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img src="./assets/svg/Logo.svg" alt="Logo" />
+            <a href="#about-me">Darkhan</a>
+          </div>
+          <p class="text">Front-end developer based in Kazakhstan</p>
+          <p class="text">© Copyright 2022. Made by Darkhan</p>
+        </div>
+        <div class="footer-right">
+          <h2>Media</h2>
+          <div class="footer-links">
+            <a href="https://github.com/KazakhBas1k"><img src="./assets/svg/Github.svg" alt="Github" /></a>
+            <a href="https://twitter.com/balmukhambet/with_replies"><img src="./assets/svg/Twitter.svg"
+                alt="Figma" /></a>
+            <a href="https://discordapp.com/users/454232680926674945/"><img src="./assets/svg/Discord.svg"
+                alt="Discord"/></a>
+          </div>
+          <a class="rs-school-logo" href="https://rs.school/js/"><img src="./assets/svg/rs_school_js.svg"
+              alt="rs_school_js"/></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
 </html>
